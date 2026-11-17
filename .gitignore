@@ -1,0 +1,21 @@
+# Python
+env/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+
+# IDE / operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# DVC local cache (metadata files can be tracked)
+.dvc/cache/
